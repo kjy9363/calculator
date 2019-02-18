@@ -1,0 +1,5 @@
+def monitor():
+while True:
+	check_status()
+	health_check()
+	time.sleep(1)
